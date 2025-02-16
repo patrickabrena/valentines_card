@@ -15,7 +15,7 @@ const scene = new THREE.Scene();
 // Load the .glb model
 const loader = new GLTFLoader();
 loader.load(
-  "./heart.glb", // Adjust path based on your setup
+  "/heart.glb", // Adjust path based on your setup
   (gltf) => {
     const model = gltf.scene;
     model.position.set(0, 1.2, 0); // Adjust position if needed
