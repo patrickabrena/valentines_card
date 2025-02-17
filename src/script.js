@@ -15,7 +15,7 @@ const scene = new THREE.Scene();
 // Load the .glb model
 const loader = new GLTFLoader();
 loader.load(
-  "/heart.glb", // This will now correctly point to /public/heart.glb after build
+  "heart.glb", // This will now correctly point to /public/heart.glb after build
   (gltf) => {
     const model = gltf.scene;
     model.position.set(0, 1.2, 0);
